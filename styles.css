@@ -166,7 +166,7 @@ button:hover{
     background-color:rgb(0, 102, 255);
     border:rgb(0, 102, 255) solid 0.1px;
     border-radius: 22px;;
-    max-height:300px;
+    max-height:350px;
     min-height:100px;
     min-width:50px;
     max-width: 300px;
@@ -221,7 +221,8 @@ footer
     text-align: center;
     height:35px;
     padding-top:20px;
-    font-size: 20px
+    font-size: 20px;
+    padding-bottom:15px;
 }
 
 .lets-chat-button{
