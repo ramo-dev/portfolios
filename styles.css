@@ -9,6 +9,7 @@
     padding-top:10px;
     padding-bottom: 10px;
     flex-flow:row wrap;
+    font-size: 20px;
 }
 .menu li{
     list-style: none;
@@ -18,6 +19,7 @@
     color:white;
     font-size: 18px;
     text-align: center;
+    font-size: 23px;
 }
 .menu{
     display: flex;
