@@ -129,7 +129,7 @@ body {
     margin-top: 20px;
     height: 40px;
     border-radius: 13px;
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(207, 143, 23);
     color: white;
     transition: 0.3s;
     width: 100px;
@@ -139,8 +139,8 @@ body {
   }
 
   button:hover {
-    color: rgb(0, 132, 255);
-    background-color: white;
+    color: rgb(207, 143, 23);
+    background-color: rgb(0, 0, 0);
   }
   footer {
     background-color: rgba(20, 16, 16, 0.932);
@@ -199,6 +199,8 @@ body {
     text-decoration: none;
   }
   a:hover{
+    transform: scale(1.1);
+    font-size: 36px;
     color:black;
   }
 

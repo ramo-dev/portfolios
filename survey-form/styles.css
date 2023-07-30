@@ -150,6 +150,8 @@ a {
 
 a:hover {
   color: black;
+  transform: scale(1.2);
+  font-size: 33px;
 }
 
 footer {
