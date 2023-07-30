@@ -259,7 +259,7 @@ a:hover{
     font-size: 12px;
   }
   }
-  @media screen and (max-width: 5;80px) {
+  @media screen and (max-width: 580px) {
     html{
         top: 0;
         left: 0;
@@ -276,7 +276,7 @@ a:hover{
     .menu a{
         display: inline-flex;
       flex-wrap: row wrap;
-      margin: 2px;
+      margin: 13px;
       overflow: hidden;
       font-size: 19px;
     }
