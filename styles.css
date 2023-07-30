@@ -80,7 +80,7 @@ a:hover{
     left: 0;
     right: 0;
     bottom: 3;
-    background-image: url("../pictures/back-burger.jpg");
+    background-image: url("../portfolios/pictures/back-burger.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position:center center;
@@ -101,7 +101,7 @@ a:hover{
     z-index:1; 
     transform: scale(1);
     background-repeat: no-repeat;
-    background-image:url("../pictures/food-2.jpg");
+    background-image:url("../portfolios/pictures/food-2.jpg");
     display:flex;
     padding: 30px 10%;
     justify-content: center;
@@ -249,7 +249,7 @@ a:hover{
     display: inline-flex;
     justify-content: center;
     text-align: center;
-    background-image:url("../pictures/background-mg.jpeg");
+    background-image:url("../portfolios/pictures/background-mg.jpeg");
     padding-top: 43px;
     height: 240px;
     color:white;
