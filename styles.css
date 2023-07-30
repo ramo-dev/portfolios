@@ -276,7 +276,7 @@ a:hover{
     .menu a{
         display: inline-flex;
       flex-wrap: row wrap;
-      margin: 7px;
+      margin: 3px;
       overflow: hidden;
       font-size: 19px;
     }
