@@ -205,17 +205,25 @@ a:hover{
     border-radius: 16px;
   }
 @media screen and (max-width: 760px) {
+    html{
+        top: 0;
+        left: 0;
+        right:0;
+    }
+    *
+    {
+            font-size: 19px;
+    }
     .navigation-bar {
-      font-size: 20px;
       padding-top: 5px;
       padding-bottom: 1px;
     }
     .menu a{
-      flex-direction: row wrap;
-      flex-wrap: wrap;
-    }
-    .menu a {
-      margin: 15px;
+        display: inline-flex;
+      flex-wrap: row wrap;
+      margin: 2px;
+      overflow: hidden;
+      font-size: 19px;
     }
     .box
     {
@@ -242,6 +250,68 @@ a:hover{
         overflow: hidden;
         border-radius: 16px;
         top:0;
+  }
+  .button-1{
+    font-size: 70%;
+  }
+  button:hover{
+    transform: scale(1.1);
+    font-size: 12px;
+  }
+  }
+  @media screen and (max-width: 5;80px) {
+    html{
+        top: 0;
+        left: 0;
+        right:0;
+    }
+    *
+    {
+            font-size: 19px;
+    }
+    .navigation-bar {
+      padding-top: 5px;
+      padding-bottom: 1px;
+    }
+    .menu a{
+        display: inline-flex;
+      flex-wrap: row wrap;
+      margin: 2px;
+      overflow: hidden;
+      font-size: 19px;
+    }
+    .box
+    {
+        height:300px;
+        width:250px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        
+    }
+    .section-2
+    {
+        margin-top: 246px;
+    }
+    .section-4{
+        max-height: fit-content;
+        display:flex;
+        flex-wrap: wrap;
+        flex: 1;
+        flex-grow: calc(1s);
+    }.food-image{
+        max-width: 90%;
+        max-height: 80%;
+        overflow: hidden;
+        border-radius: 16px;
+        top:0;
+  }
+  .button-1{
+    font-size: 70%;
+  }
+  button:hover{
+    transform: scale(1.1);
+    font-size: 12px;
   }
   }
 .section-5
