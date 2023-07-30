@@ -3,7 +3,6 @@ body{
     background-size: cover; 
     background-position:center center;
     transform: scale(1);
-    padding: 0;
     scroll-behavior: smooth;
     background-attachment: fixed;
 }
@@ -138,6 +137,7 @@ a:hover{
   }
 
   footer {
+    margin-bottom: 0;
     background-color:rgba(20, 16, 16, 0.932);
     padding-top: 10px;
     padding-bottom: 10px;
